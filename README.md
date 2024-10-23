@@ -1,4 +1,5 @@
 # deeplearning_GlobalAIhub
+# Link of the Kaggle Notebook: https://www.kaggle.com/code/elifnurylmaz/fish-classification-globalaihub/edit
 # This project aims to perform fish classification tasks using deep learning methods. A model has been created to classify different fish species using a large fish dataset. This model is designed to ensure the accurate recognition and classification of fish species. The project utilizes a dataset called A Large Scale Fish Dataset, which is available on Kaggle. This dataset contains over 10,000 images of various fish species. Each of the images is in PNG format, and the fish species are labeled with directory names.
 
 # During the data loading and preprocessing phase, the data was loaded from the file path, and PNG format images were filtered. The image paths and labels were placed into a pandas DataFrame. The loaded images were converted into NumPy arrays using the load_img and img_to_array functions. The images were normalized to the range of 0-1. Subsequently, the dataset was split into training (64%), validation (16%), and test (20%) sets. The data was reshaped accordingly.
